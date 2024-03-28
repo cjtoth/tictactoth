@@ -16,3 +16,6 @@ npm i
 ```
 npx cypress run
 ```
+
+Findings Document:
+https://docs.google.com/spreadsheets/d/1jSwY8-jpK0WHON_bsXraRSrxtuhjujRc9R-oevSu4hk/edit?usp=sharing
