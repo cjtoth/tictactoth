@@ -39,7 +39,7 @@ class gameBoard {
         for (let col = 0; col <= boardSize; col++) {
             this.clickAndAssertCell(0, col, 'X');
             if (col === boardSize - 1) {
-                cy.log(`Expecting X to have won in ${col + 1} turns horiztonally`);
+                cy.log(`Expecting X to have won in ${col + 1} turns horizontally`);
                 break;
             }
             // play O next to X
@@ -52,7 +52,7 @@ class gameBoard {
             if (col === boardSize - 1) {
                 this.clickAndAssertCell(2, col, 'X'); // X gets out of the way for O to win
                 this.clickAndAssertCell(1, col, 'O');
-                cy.log(`Expecting 0 to have won in ${col + 1} turns horiztonally`);
+                cy.log(`Expecting 0 to have won in ${col + 1} turns horizontally`);
                 break;
             }
             this.clickAndAssertCell(0, col, 'X');

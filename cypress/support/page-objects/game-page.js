@@ -59,7 +59,7 @@ class gamePage {
 
     restartGame() {
         // TODO update when restart is implemented
-        cy.visit(baseUrl);
+        cy.visit('/');
     }
 }
 
